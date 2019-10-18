@@ -3,7 +3,9 @@ renv::install("devtools")
 renv::install("rstudio/config")
 renv::install("stringr")
 renv::install("dplyr")
+
 usethis::use_package("magrittr")
+usethis::use_package("config")
 
 get_config("column_names:col_group")
 get_config("column_names")
