@@ -1,3 +1,4 @@
+#' @export
 get_config <- function(value, sep = ":") {
   if (value %>% stringr::str_detect(sep)) {
     value <- value %>% stringr::str_replace(sep, ".")
